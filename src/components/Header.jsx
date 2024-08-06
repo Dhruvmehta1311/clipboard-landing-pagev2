@@ -5,21 +5,27 @@ const Header = () => {
   return (
     <div className="relative flex items-center justify-center pt-28">
       <img className="w-full absolute top-0" src={headerImg} alt="" />
-      <div className="flex flex-col justify-center items-center max-w-[500px] w-[90%] gap-6">
+      <div className="flex flex-col justify-center items-center max-w-[590px] w-[95%] gap-6">
         <img src={logo} alt="" />
-        <p className="text-center">A history of everything you copy</p>
-        <p className="text-center">
-          Clipboard allows you to track and organize everything you copy.
-          Instantly access your clipboard on all your devices.
-        </p>
-        <div className="flex gap-4 flex-col sm:flex-row">
-          <button className="text-white bg-strongCyan px-4 py-2 rounded-full drop-shadow-cyan-md-hsl">
-            Download for iOS
-          </button>
-          <button className="text-white bg-lightBlue px-4 py-2 rounded-full drop-shadow-blue-md-hsl">
-            Download for MAC
-          </button>
-        </div>
+        <section className="flex flex-col gap-8">
+          <div className="flex flex-col gap-8">
+            <p className="font-baiJamjuree text-3xl font-semibold text-gray-700 text-center">
+              A history of everything you copy
+            </p>
+            <p className="font-baiJamjuree text-center text-gray-400">
+              Clipboard allows you to track and organize everything you copy.
+              Instantly access your clipboard on all your devices.
+            </p>
+          </div>
+          <div className="flex items-center justify-center gap-4 flex-col sm:flex-row w-full">
+            <button className="text-white bg-strongCyan px-4 py-2 rounded-full drop-shadow-cyan-md-hsl w-[70%] sm:w-fit">
+              Download for iOS
+            </button>
+            <button className="text-white bg-lightBlue px-4 py-2 rounded-full drop-shadow-blue-md-hsl  w-[70%] sm:w-fit">
+              Download for MAC
+            </button>
+          </div>
+        </section>
       </div>
     </div>
   );

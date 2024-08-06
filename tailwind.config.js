@@ -12,6 +12,9 @@ export default {
         "blue-md-hsl": "0 4px 3px hsl(233,100%,69%)",
         // Define other custom drop shadows here if needed
       },
+      fontFamily: {
+        baiJamjuree: ["Bai Jamjuree", "sans-serif"],
+      },
     },
   },
   plugins: [],
