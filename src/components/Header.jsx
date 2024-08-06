@@ -1,12 +1,22 @@
-import headerImg from "../assets/images/bg-header-desktop.png";
+import headerDesktopImg from "../assets/images/bg-header-desktop.png";
+import headerMobileImg from "../assets/images/bg-header-mobile.png";
 import logo from "../assets/images/logo.svg";
 
 const Header = () => {
   return (
     <div className="relative flex items-center justify-center pt-28">
-      <img className="w-full absolute top-0" src={headerImg} alt="" />
+      <img
+        className="w-full absolute top-0 hidden md:block"
+        src={headerDesktopImg}
+        alt=""
+      />
+      <img
+        className="w-full absolute top-0  md:hidden"
+        src={headerMobileImg}
+        alt=""
+      />
       <div className="flex flex-col justify-center items-center max-w-[590px] w-[95%] gap-6">
-        <img src={logo} alt="" />
+        <img className="h-28 sm:h-32" src={logo} alt="" />
         <section className="flex flex-col gap-8">
           <div className="flex flex-col gap-8">
             <p className="font-baiJamjuree text-3xl font-semibold text-gray-700 text-center">
