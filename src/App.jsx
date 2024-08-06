@@ -1,5 +1,11 @@
+import Header from "./components/Header";
+
 function App() {
-  return <div className="text-2xl font-bold">Clipboard Landing Page V3</div>;
+  return (
+    <div>
+      <Header />
+    </div>
+  );
 }
 
 export default App;
