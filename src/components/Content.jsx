@@ -31,8 +31,14 @@ const Content = () => {
         </p>
       </section>
       <section className="pt-10 flex flex-col lg:flex-row">
-        <img src={imageComputer} alt="" />
-        <div className="max-w-[400px] pt-20 w-[90%] mx-auto  flex  flex-col gap-16">
+        <div>
+          <img
+            className="max-w-full w-[90%] mx-auto"
+            src={imageComputer}
+            alt=""
+          />
+        </div>
+        <div className="max-w-[400px] pt-20 w-[90%] lg:mx-auto pl-10  flex  flex-col gap-16">
           {features.map((feature) => (
             <div className="flex flex-col gap-4" key={feature.title}>
               <h3 className="text-xl font-semibold text-gray-700 text-center sm:text-left">
