@@ -4,7 +4,7 @@ import logo from "../assets/images/logo.svg";
 
 const Header = () => {
   return (
-    <div className="relative flex items-center justify-center pt-28">
+    <div className="relative flex items-center justify-center pt-24">
       <img
         className="w-full absolute top-0 hidden md:block"
         src={headerDesktopImg}
@@ -16,7 +16,7 @@ const Header = () => {
         alt=""
       />
       <div className="flex flex-col justify-center items-center max-w-[590px] w-[95%] gap-6">
-        <img className="h-28 sm:h-32" src={logo} alt="" />
+        <img className="h-28 " src={logo} alt="" />
         <section className="flex flex-col gap-8">
           <div className="flex flex-col gap-8">
             <p className="font-baiJamjuree text-3xl font-semibold text-gray-700 text-center">
