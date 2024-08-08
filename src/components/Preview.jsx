@@ -37,23 +37,6 @@ const Preview = () => {
           <p className="text-gray-400">{preview.content}</p>
         </div>
       ))}
-
-      {/* <div className="flex flex-col items-center gap-6 text-center">
-        <img className="h-10 w-10" src={iconBlacklist} alt="" />
-        <h2 className="font-semibold text-xl">Create blacklists</h2>
-        <p>
-          Ensure sensitive information never makes its way to your clipboard by
-          excluding certain sources.
-        </p>
-      </div>
-      <div className="flex flex-col items-center gap-6 text-center"> 
-      <img className="h-10 w-10" src={iconBlacklist} alt="" />
-      <h2 className="font-semibold text-xl">Create blacklists</h2>
-      <p>
-        Ensure sensitive information never makes its way to your clipboard by
-        excluding certain sources.
-      </p>
-      </div>*/}
     </div>
   );
 };
