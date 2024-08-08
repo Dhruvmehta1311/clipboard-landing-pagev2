@@ -26,25 +26,9 @@ const Footer = () => {
           </section>
         </section>
         <section className="flex gap-10 sm:gap-4 items-center">
-          {/* <img
-            className="h-6 cursor-pointer hover:bg-strongCyan"
-            src={fb}
-            alt=""
-          /> */}
           <FaFacebookSquare className="h-6 cursor-pointer hover:text-strongCyan text-2xl" />
           <FaTwitter className="h-6 cursor-pointer hover:text-strongCyan text-2xl" />
           <FaInstagram className="h-6 cursor-pointer hover:text-strongCyan text-2xl" />
-
-          {/* <img
-            className="h-6 cursor-pointer hover:text-strongCyan"
-            src={instagram}
-            alt=""
-          /> */}
-          {/* <img
-            className="h-6 cursor-pointer hover:bg-strongCyan"
-            src={twitter}
-            alt=""
-          /> */}
         </section>
       </div>
     </div>
