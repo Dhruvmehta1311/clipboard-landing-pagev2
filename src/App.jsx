@@ -3,6 +3,7 @@ import Content from "./components/Content";
 import Preview from "./components/Preview";
 import CompanysLogo from "./components/CompanysLogo";
 import Bottom from "./components/Bottom";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Preview />
       <CompanysLogo />
       <Bottom />
+      <Footer />
     </div>
   );
 }
